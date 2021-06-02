@@ -1,0 +1,22 @@
+#card-container {
+	display: flex;
+	height: 500px;
+}
+
+#card-1 {
+	background-color: blue;
+	width: 50%;
+	height: 50%;
+}
+
+#card-2 {
+	background-color: red;
+	width: 50%;
+	height: 50%;
+}
+
+#card-3 {
+	background-color: yellow;
+	width: 50%;
+	height: 50%;
+}
