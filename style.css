@@ -1,19 +1,22 @@
-#bright-orange {
+.cards {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+}
+
+.sedans {
 	background-color: hsl(31, 77%, 52%);
 	width: 920px;
 	height: 500px;
 }
 
-#dark-cyan {
+.suvs {
 	background-color: hsl(184, 100%, 22%);
 	width: 307px;
 	height: 500px;
 }
 
-#very-dark-cyan {
+.luxury {
 	background-color: hsl(179, 100%, 13%);
 	width: 307px;
 	height: 500px;
