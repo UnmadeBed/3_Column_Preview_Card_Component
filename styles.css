@@ -1,22 +1,20 @@
-#card-container {
+#bright-orange {
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: hsl(31, 77%, 52%);
+	width: 920px;
 	height: 500px;
 }
 
-#card-1 {
-	background-color: blue;
-	width: 50%;
-	height: 50%;
+#dark-cyan {
+	background-color: hsl(184, 100%, 22%);
+	width: 307px;
+	height: 500px;
 }
 
-#card-2 {
-	background-color: red;
-	width: 50%;
-	height: 50%;
-}
-
-#card-3 {
-	background-color: yellow;
-	width: 50%;
-	height: 50%;
+#very-dark-cyan {
+	background-color: hsl(179, 100%, 13%);
+	width: 307px;
+	height: 500px;
 }
