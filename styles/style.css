@@ -1,0 +1,27 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+.card-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sedans {
+	width: 307px;
+	background-color: pink;
+}
+
+.suvs {
+	width: 307px;
+}
+
+.luxury {
+	width: 307px;
+}
