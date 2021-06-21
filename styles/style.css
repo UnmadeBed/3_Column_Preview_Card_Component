@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
@@ -7,21 +13,53 @@
 	color: hsl(228, 45%, 44%);
 }
 
-.card-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+body {
+	background-color: #f2f2f2;
+	font-size: 15px;
 }
 
-.sedans {
-	width: 307px;
-	background-color: pink;
+.container {
+	position: absolute;
+	width: 327px;
+	height: 1326px;
+	left: 24px;
+	top: 88px;
 }
 
-.suvs {
-	width: 307px;
+.card {
+	font-family: "Lexend Deca", sans-serif;
 }
 
-.luxury {
-	width: 307px;
+.card-title {
+	font-family: "Big Shoulders Display";
+}
+
+.card1 {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: #e28625;
+	border-radius: 8px;
+}
+
+.card2 {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 33.33%;
+	bottom: 33.33%;
+	background: #006971;
+	border-radius: 8px;
+}
+
+.card3 {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 66.67%;
+	bottom: 0%;
+	background: #004140;
+	border-radius: 0px 0px 8px 8px;
 }
